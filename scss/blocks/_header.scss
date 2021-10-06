@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 44px 81px;
+  max-width: 1470px;
 
 .header-list{
   display: flex;
@@ -11,9 +12,14 @@
 }
 &-item{
     list-style-type: none;
-margin: 0;
-padding: 0;
-text-decoration: none;
+    margin-left: 32px;
+    &__link{
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #83888F;
+      text-decoration: none;
+    }
   }
 }
 
